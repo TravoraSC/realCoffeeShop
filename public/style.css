@@ -1,0 +1,72 @@
+body{
+  /* padding-top:80px; */
+  word-wrap:break-word;
+  background-image: url(coffee.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
+img{
+  height: 200px;
+}
+
+.container {
+  margin: 5rem;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  width: 132rem;
+}
+
+.container .jumbotron {
+  border-radius: 67%;
+  background-color: antiquewhite;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+  line-height: 1.5rem;
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+}
+
+input{
+  margin-right: 1rem;
+  height: 4rem;
+  width: 24vw;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.orderType {
+  flex-direction: row;
+  display: flex;
+  gap: 1.5rem;
+}
+
+button {
+  background: #3c281b;
+  color: white;
+  border-radius: 41%;
+}
+
+.submit {
+  height: 4rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+span, p {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.jumbotron p{
+  line-height: 1.4;
+  margin-top: 4rem;
+}
